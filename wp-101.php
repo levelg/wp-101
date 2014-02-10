@@ -49,7 +49,7 @@ function register_my_custom_menu_page(){
     	'manage_options', 
     	'wp-101-master/wp-101-admin.php', 
     	'', 
-    	plugins_url( 'wp-101-master/images/icon.png' ), 
+    	plugins_url( 'wp-101-master/images/icon.jpg' ), 
     	6 
     );
 }
