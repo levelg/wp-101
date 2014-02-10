@@ -56,21 +56,8 @@ function register_my_custom_menu_page(){
 
 add_action( 'admin_menu', 'register_my_custom_menu_page' );
 
-
 function initialize_admin(){
-	// load jquery
-	wp_enqueue_script( 'jquery' );
+	wp_enqueue_script( 'jquery' ); 		// load jquery
 }
 add_action( 'admin_init', 'initialize_admin');
 add_action( 'admin_menu', 'register_my_custom_menu_page' );
-
-/* allow jquery in post */
-
-//add filter for the_content
-//content.
-
-
-
-
-
-
