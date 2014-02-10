@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Elephant Excerpts
+Plugin Name: WP 101 Master
 Plugin URI: http://vip.wordpress.com
 Description: Example of some essential wordpress plugin methods, hooks, and filters
 Version: 0.1
@@ -47,9 +47,9 @@ function register_my_custom_menu_page(){
     	'custom menu title', 
     	'custom menu', 
     	'manage_options', 
-    	'wp-101/wp-101-admin.php', 
+    	'wp-101-master/wp-101-admin.php', 
     	'', 
-    	plugins_url( 'wp-101/images/icon.png' ), 
+    	plugins_url( 'wp-101-master/images/icon.png' ), 
     	6 
     );
 }
